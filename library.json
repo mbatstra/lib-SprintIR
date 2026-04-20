@@ -1,0 +1,22 @@
+{
+  "name": "lib-SprintIR",
+  "version": "1.0.0",
+  "description": "Arduino driver for the GSS SprintIR CO2 sensor over UART. Reads CO2 concentration in ppm and percent, supports zero-point calibration (fresh-air and nitrogen) and digital filtering.",
+  "keywords": ["sprintir", "co2", "uart", "serial", "gas", "sensor", "esp32", "arduino"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knifter/lib-SprintIR"
+  },
+  "authors": {
+    "name": "Tijs van Roon",
+    "url": "https://github.com/knifter",
+    "maintainer": true
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/knifter/lib-SprintIR",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "build": {
+    "srcDir": "src"
+  }
+}
